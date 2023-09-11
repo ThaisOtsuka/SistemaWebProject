@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareforPets - Ecommerce website </title>
+	<!-- estou usando bootstrap para ajudar na criação das linhas e colunas -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- import meu css style -->
+	<link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+	<div class="container-fluid">
+		<!-- linha 1: implementando o logo do meu website -->
+		<div class="row">
+			<div class="logo">
+				<center>
+				<img src="logo.jpeg" width="200px" height="150px">
+				<p class="logoName">Care for Pets: A loja querida para seu pet!</p>
+				<marquee scrollamount="20">Compre aqui!</marquee>
+				</center>
+			</div>		
+		</div>
+		<!-- linha 2: implementando a funcionalidade de busca, o login e registro e o menu. -->
+		<div class="row">
+			<div class="menu_column col-sm-4">
+				<img src="puppy2.jpg" width="260px" heigh="170px" alt="Loading img">
+			</div>
+			<div class="searchBar menu_column col-sm-4">
+				<form class="form" name="SearchBar" autocomplete="off" class="searchBarStyle" method="get">
+					<fieldset>
+						<legend>Search Bar</legend>
+						<input type="text" name="SearchBar" pattern="[A-Za-z]{2,}">
+						<input type="submit" value="Procurar">
+					</fieldset>
+				</form>
+			</div>
+			<div class="menu_column col-sm-2">
+				<div class="Login/Register">
+					<img src="login_icon.png" width="50px" height="50px">
+					<nav>
+						<ul>
+							<li>
+								<p><a href="">Login</a></p>
+							</li>
+							<li>
+								<p><a href="register.html">Registro</a></p>
+							</li>
+						</ul>
+					</nav>
+				</div>		
+			</div>
+			<div class="menu col-sm-2">
+				<img src="menu_icon.png" width="50" height="50">
+				<p>Menu</p>
+				<nav>
+					<ul>
+						<li><a href="test.html">Home</a></li>
+						<li><a href="produto1.html">Produtos</a></li>
+						<li><a href="servico1.html">Serviços</a></li>
+						<li><a href="contato.html">Contato</a></li>
+						<li><a href="">Conta</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<!-- linha 3: implementando o objetivo da minha empresa -->
+		<div class="row philosophy">
+			<div class="puppy col-sm-2">
+				<img src="puppy1.jpeg" width="200px" height="150px" alt="Loagind img">
+			</div>
+			<div class="OurPhilosophy col-sm-10">
+				<p class="nossaFilosofia">Nossa Filosofia: Nós Acreditamos que a conexão dos humanos com os animais é um presente especial e que deve ser cuidado com muito carinho e atenção.
+				Nós nutrimos esse presente através dos serviços e produtos disponíveis na nossa empresa. Tudo escolhido com muito cuidado, especialmente para seu pet.</p>
+			</div>
+		</div>
+		<br/>
+		<br/>
+		<!-- linha 4: implementando os produtos e serviços -->
+		<div class="row">
+			<div class="OurProducts col-sm-6">
+				<p class="NossosProdutos">Nossos Produtos:</p>
+				<nav>
+					<ul>
+						<li>
+							<a href="produto1.html"><img src="raçãoseca1.png" width="200" height="150"></a>
+							<a href="produto1.html"><h2>Ração Seca Pedigree Cão 1,5kg</h2></a>
+							<p class="productPrice">R$ 49.99</p>
+						</li>
+						<li>
+							<a href="produto2.html"><img src="raçãoseca2.webp" width="200" height="150"></a>
+							<a href="produto2.html"><h2>Ração Seca Origens Premium Cão 10kg</h2></a>
+							<p class="productPrice">R$ 140.90</p>
+						</li>
+						<li>
+							<a href="produto3.html"><img src="raçãoseca5.jpeg" width="200" height="150"></a>
+							<a href="produto3.html"><h2>Ração Seca Whiskas Gato 2kg</h2></a>
+							<p class="productPrice">R$ 39.90</p>
+						</li>
+						<li>
+							<a href="produto4.html"><img src="raçãoseca7.jpg" width="200" height="150"></a>
+							<a href="produto4.html"><h2>Ração Seca Premium Gato 2kg</h2></a>
+							<p class="productPrice">R$ 35.00</p>
+						</li>
+						<li>
+							<a href="produto5.html"><img src="raçãoúmida1.jpg" width="200" height="150"></a>
+							<a href="produto5.html"><h2>Ração Úmida Pedigree Cão 100g</h2></a>
+							<p class="productPrice">R$ 10.00</p>
+						</li>
+						<li>
+							<a href="produto6.html"><img src="raçãoúmida2.webp" width="200" height="150"></a>
+							<a href="produto6.html"><h2>Ração Úmida Premier Gato 70g</h2></a>
+							<p class="productPrice">R$ 15.00</p>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		
+			<div class="Services col-sm-6">
+				<p class="NossosServiços">Nossos Serviços:</p>
+				<nav>
+					<ul>
+						<li>
+							<a href="servico1.html"><img src="banho1.jpeg" width="120px" height="100px"></a>
+							<a href="servico1.html"><h2>Banho</h2></a>
+						</li>
+						<li>
+							<a href="servico2.html"><img src="tosa1.jpg" width="120px" height="100px"></a>
+							<a href="servico2.html"><h2>Tosa</h2></a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<!-- ultima linha: implementando o footer -->
+		<div class="row">
+			<div class="col-sm-8 offset-sm-4">
+				<footer>
+					<p>2023 CareforPets - Todos os direitos reservados</p>
+					<p>Contato: +55(79)99852-6008</p>
+					<p>Localização: Rua Almeida Pinheiro, n85, Bairro Laranjeiras, Aracaju/SE.</p>
+				</footer>
+			</div>
+		</div>
+	</div>
+</body> 
+</html>

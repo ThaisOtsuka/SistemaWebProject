@@ -1,0 +1,56 @@
+body  {
+	background-color: lightblue;
+	color: black;
+}
+.logo {
+	border: 3px solid green;
+}
+marquee {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: large;
+	color: rgb(25, 91, 25);
+}
+.logoName { 
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: xx-large;
+	color: rgb(25, 91, 25);
+}
+
+.footer {
+	text-align: center;
+}
+
+.philosophy {
+	border: 2px solid rgb(25, 91, 25);
+}
+
+.nossaFilosofia {
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 25px;
+	font-style: italic;
+	color: rgb(130, 17, 130);
+}
+
+.productPrice {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 30px;
+	color: black;
+}
+
+.descriçãoProduto {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 40px;
+	color: black;
+}
+
+.NossosProdutos {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 40px;
+	color: black;
+}
+
+.NossosServiços {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 40px;
+	color: black;
+}

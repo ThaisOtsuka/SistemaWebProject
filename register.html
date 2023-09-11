@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="mystyle.css" rel="stylesheet">
+    <title>CareforPets - Ecommerce website </title>
+    <!-- o estilo do meu formulário -->
+    <style>
+        form
+        {
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 15px;
+        }
+        .class_div
+        {
+            background-color: rgb(62, 90, 156);
+        }
+        .class_input_name
+        {
+            width: 300px;
+        }
+        .class_botton_send
+        {
+            width: 100px;
+            height: 30px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        p
+        {
+            font-weight: bold;
+            font-style: italic;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 25px;
+            color: rgb(20, 19, 19);
+        }
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <center>
+            <a href="test.html"><img src="logo.jpeg" width="250px" height="200px" alt="Loading img"></a>
+            <p class="logoName">Care for Pets: Registre-se</p>
+            <marquee scrollamount="20">Compre aqui!</marquee>
+        </center>
+    </div>
+    <div class="class_div">
+        <form action="https://formsubmit.co/thais.otsuka@gmail.com" method="POST">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <label>Nome:</label>
+                <input type="text" name="Nome" placeholder="Nome completo" class="class_input_name" required>
+                <br><br>
+                <label>CPF:</label>
+                <input type="text" name="CPF" placeholder="Digite o CPF" pattern="[0-9]{11}" required>
+                <label>Data de nascimento:</label>
+                <input type="text" name="Nascimento" placeholder="dd/mm/aaaa" pattern="[0-9]{8}" required>
+                <label>Masculino</label>
+                <input type="radio" name="gender" value="masculino">
+                <label>Feminino</label>
+                <input type="radio" name="gender" value="feminino">
+                <br><br>
+                <label>Estado Civil:</label>
+                <select name="Estado Civil">
+                    <option value="solteiro">Solteiro(a)</option>
+                    <option value="casado">Casado(a)</option>
+                    <option value="divorciado">Divorciado(a)</option>
+                    <option value="Viuvo">Viuvo(a)</option>
+                    <option value="união estável">União Estável</option>
+                    <option value="outro">Outro</option>
+                </select>
+                <label>E-mail:</label>
+                <input type="email" name="email" placeholder="Digite o email">
+                <label>Renda Mensal (Opcional):</label>
+                <input type="text" name="renda mensal" placeholder="Digite a renda">
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Endereço</legend>
+                <label>Logradouro</label>
+                <input type="text" name="logradouro" placeholder="Digite o endereço" class="class_input_name" required>
+                <label>Estado:</label>
+                <input type="text" name="estado" pattern="[A-Za-z]" required>
+                <label>Cidade:</label>
+                <input type="text" name="cidade" pattern="[A-Za-z]" required>
+                <label>Caixa postal:</label>
+                <input type="number" name="caixa postal" pattern="[0-9]" required>
+                <label>País:</label>
+                <input type="text" name="país" pattern="[A-Za-z]" required>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Dados do pet</legend>
+                <label>Nome do pet:</label>
+                <input type="text" name="nome do pet" placeholder="Nome do pet" pattern="[A-Za-z]" required>
+                <label>Raça do pet (Opcional):</label>
+                <input type="text" name="raça do pet" placeholder="Digite a raça do pet">
+                <label>Idade do pet: </label>
+                <input type="number" name="idade do pet" pattern="[0-9]" required>
+                <label>Sexo do pet:</label>
+                <label>Macho</label>
+                <input type="radio" name="genderpet" value="Macho">
+                <label>Fêmea</label>
+                <input type="radio" name="genderpet" value="Fêmea">
+            </fieldset>
+            <br><br>
+            <fieldset>
+                <legend>Método de pagamento (Opcional)</legend>
+                <label>Cartão de Crédito:</label>
+                <input type="text" name="cartão" placeholder="Digite o número do cartão" pattern="[0-9]{16}">
+                <label>Data de vencimento</label>
+                <input type="month" name="vencimento" mim="2020-09">
+                <label>Os 3 últimos dígitos:</label>
+                <input type="text" name="digits" pattern="[0-9]{3}">
+            </fieldset>
+            <center>
+                <label>Envio dos dados Cadastrais:</label>
+                <input class="class_botton_send" type="submit">
+            </center>
+            <br><br>
+        </form>
+    </div>
+    <div>
+        <footer>
+            <p>2023 CareforPets - Todos os direitos reservados</p>
+            <p>Contato: +55(79)99852-6008</p>
+            <p>Localização: Rua Almeida Pinheiro, n85, Bairro Laranjeiras, Aracaju/SE.</p>
+        </footer>
+    </div>
+</body>
+</html>
